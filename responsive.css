@@ -1,0 +1,94 @@
+@media screen and (max-width: 1000px) {
+    .header-title h1 {
+        font-size: 48px;
+    }
+    
+    .destinasi {
+        width: 50%;
+        padding-bottom: 50px;
+    }
+    .description .last-destinasi {
+        width: 50%;
+    }
+
+    .mitra-item {
+        width: 50%;
+        padding-bottom: 50px;
+    }
+
+    .main-feedback {
+        padding-left: 18%;
+        padding-right: 18%;
+    }
+
+    .footer-company-name {
+        padding: 10px 10%;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    header {
+        height: 100px;
+    }
+    nav {
+        flex-direction: column;
+    }
+    .nav-logo {
+        padding-top: 10px;
+    }
+    .nav-list li {
+        padding: 0 10px;
+    }
+    .nav-list li a {
+        line-height: 50px;
+    }
+    .nav-list .login {
+        border-radius: 4px;
+    }
+
+    .header-title h1 {
+        font-size: 36px;
+    }
+    .header-title .header-title-p {
+        width: 80%;
+    }
+    
+    .destinasi {
+        width: 100%;
+        padding-bottom: 50px;
+    }
+    .description .last-destinasi {
+        width: 80%;
+    }
+
+    .mitra-item {
+        width: 100%;
+        padding-bottom: 50px;
+    }
+
+    .contacts {
+        margin: 0;
+    }
+    .contacts > .heading > h2 {
+        width: 100%;
+        display: inline-block;
+    }
+
+    .main-feedback {
+        padding-left: 11%;
+        padding-right: 11%;
+    }
+    .input, textarea {
+        width: 300px;
+    }
+
+    .footer-logo {
+        width: 100%;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    .footer-right {
+        width: 100%;
+        text-align: center;
+    }
+}
