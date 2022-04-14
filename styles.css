@@ -355,14 +355,15 @@ textarea {
     height: 100px;
 }
 
-.input[type="text"]:hover, textarea[type="text"]:hover {
+.input:hover, textarea:hover {
     border-color: #AAC2CD;
 }
 
-.input:focus, textarea:focus {
+.input[type="text"]:focus, textarea[type="text"]:focus {
     box-shadow: 0 0 15px #AAC2CD;
-    border: none;
+    border: 1 solid #AAC2CD;
     outline: none;
+
 }
 
 .btn-submit {
